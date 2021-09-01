@@ -1,0 +1,4 @@
+services:
+  kafka:
+      image: ttbb/kafka:mate
+      network_mode: "host"

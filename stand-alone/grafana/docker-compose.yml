@@ -1,0 +1,5 @@
+grafana:
+    image: ttbb/grafana:mate
+    ports:
+        - "3000:3000"
+        - "31017:31017"

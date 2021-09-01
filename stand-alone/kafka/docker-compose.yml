@@ -1,0 +1,4 @@
+kafka:
+    image: ttbb/kafka:mate
+    ports:
+        - "9092:9092"
