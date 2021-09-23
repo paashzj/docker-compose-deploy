@@ -1,5 +1,6 @@
-prometheus:
-    image: ttbb/prometheus:mate
-    ports:
-        - "9090:9090"
-        - "31001:31001"
+services:
+    prometheus:
+        image: ttbb/prometheus:mate
+        ports:
+            - "9090:9090"
+            - "31001:31001"
